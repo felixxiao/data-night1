@@ -1,0 +1,25 @@
+Distribution of number of messages
+  A = Z * (1 + X)
+  Z ~ Bernoulli(p)
+  X ~ Exp(l)
+
+1st network:
+  100 people, 5 groups
+  p_f = 0.7
+  p_a = 0.1
+  k_f = 24
+  k_a =  8
+
+2nd network:
+  3283 people, groups of size 15 - 35
+  p_f = 0.7
+  p_a = 0.01
+  k_f = 24
+  k_a =  6
+
+3rd network:
+  821 people, 32 groups of size 5 - 45
+  p_f = 0.6
+  p_a = 0.2
+  k_f = 20
+  k_a = 15

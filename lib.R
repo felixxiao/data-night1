@@ -166,7 +166,8 @@ rand.index.network = function(S, network)
 {
   if      (network == 1) M = .network$id1
   else if (network == 2) M = .network$id2
-  else stop('network must = 1 or 2')
+  else if (network == 3) M = .network$id3
+  else stop('network must = 1 2 or 3')
   n = nrow(M)
   S = .set.preprocess(S, n)
   M = M == .sameset.matrix(S, n)
