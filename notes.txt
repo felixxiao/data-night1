@@ -1,7 +1,7 @@
-Distribution of number of messages
+Distribution of number of messages A
   A = Z * (1 + X)
   Z ~ Bernoulli(p)
-  X ~ Exp(l)
+  X ~ Geometric(k)
 
 1st network:
   100 people, 5 groups
