@@ -191,8 +191,8 @@ rand.index.network = function(S, network)
   assert_that(all(unlist(S, use.names = F) %in% 1:n))
   assert_that(! any(duplicated(unlist(S, use.names = F))))
   
-#  if (sum(sapply(S, length)) < n)
-#    S[[length(S) + 1]] = setdiff(1:n, unlist(S, use.names = F))
+  if (sum(sapply(S, length)) < n)
+    S[[length(S) + 1]] = setdiff(1:n, unlist(S, use.names = F))
   
   S
 }
